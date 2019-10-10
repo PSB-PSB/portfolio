@@ -1,0 +1,148 @@
+/* 핸드폰 시작 */
+@media all and (max-width: 375px) {
+  .header__menu{
+    display: none;
+  }
+  .header__search{
+    display: none;
+  }
+  #wrapper{
+    max-width: 100vw;
+  }
+  .header__box{
+    max-width: 100vw;
+  }
+  .header__logo{
+    margin-left: 10px;
+  }
+  .p__menu{
+    display: block;
+    max-width: 100vw;
+  }
+  .header__search{
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+  .fa-bars{
+    display: block;
+    right: 10px;
+    top: 30px;
+  }
+  .main__container__one{
+    max-width: 100vw;
+  }
+  .main__img__one{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+  }
+  .main__text__one{
+    max-width: 100vw;
+  }
+  .main__text__one h2{
+    font-size: 20px;
+  }
+  .main__text__one h3{
+    display: none;
+  }
+  .main__hash__tags ul li{
+    max-width: auto;
+    margin: 0 auto;
+  }
+  .main__hash__tags__one ul li:nth-child(1){
+    margin-left: 5px;
+  }
+  .main__hash__tags__two ul li:nth-child(1){
+    margin-left: 8px;
+  }
+  .main__img__two{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+  }
+  .main__img__three{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .H400 img{
+    height: 280px;
+  }
+  .main__before__one{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 280px;
+    opacity: 0;
+  }
+  .main__img__three li{
+    margin: 0px 0px 200px 0px;
+  }
+  .main__img__for{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .main__img__for li{
+    margin: 0px 0px 200px 0px;
+  }
+  .main__img__five{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .main__img__five li{
+    margin: 0px 0px 200px 0px;
+  }
+  .main__img__six{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .main__img__six li{
+    margin: 0px 0px 200px 0px;
+  }
+  .main__img__seven{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .main__img__seven li{
+    margin: 0px 0px 200px 0px;
+  }
+  .main__img__eight{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .main__img__eight li{
+    margin: 0px 0px 250px 0px;
+  }
+  .footer__box{
+    max-width: 100vw;
+  }
+  .footer__left{
+    max-width: 100vw;
+    margin-left: 60px;
+    margin: 0;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .footer__left p{
+    font-size: 12px;
+  }
+  .footer__rught{
+    display: none;
+  }
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/recommend.css">
+  <link rel="stylesheet" media="screen and (min-width: 767px) and (max-width: 1023px)" href="css/mediaT.css">
+  <link rel="stylesheet" media="screen and (max-width: 375px)" href="css/mediaP.css">
+  <script src="js/pick.js"></script>
+  <title>:: 화이트 ˇ 코튼 ::</title>
+</head>
+<body>
+  <div id="wrapper">
+    <!-- 헤더 -->
+    <header>
+      <div class="header">
+        <div class="header__box">
+          <div class="header__logo">
+            <h2><a href="../index.html">White.Cotton</a></h2>
+          </div>
+          <div class="header__menu">
+            <ul>
+              <li class="gory"><a href="#" style="font-size:14px;">CATEGORY <i class="fas fa-angle-down"></i></a>
+                <div class="sub__gory">
+                  <ul>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="recommend.html">BEST</a></li>
+                    <li><a href="../pick/pick.html">MD'S PICK</a></li>
+                    <li><a href="#">SALE</a></li>
+                    <!-- <div class="sub__border" style="border-bottom:1px solid rgb(150, 150, 150); margin:0px 10px;"></div> -->
+                    <li><a href="#">무드등/조명</a></li>
+                    <li><a href="#">DIY/데코소품</a></li>
+                    <li><a href="#">캔들/인센스</a></li>
+                    <li><a href="#">키친/테이블웨어</a></li>
+                    <li><a href="#">식물/공기정화</a></li>
+                    <li><a href="#">반려동물</a></li>
+                    <li><a href="#">시계</a></li>
+                    <li><a href="#">패브릭</a></li>
+                    <li><a href="#">디자인문구</a></li>
+                    <li><a href="#">아트/아트프린팅</a></li>
+                    <li><a href="#">패션잡화</a></li>
+                    <li><a href="#">쥬얼리</a></li>
+                    <li><a href="#">테크악세사리</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="brand"><a href="#" style="font-size:14px;">BRAND <i class="fas fa-angle-down"></i></a>
+                <div class="sub__brand">
+                  <ul>
+                    <li><a href="#">Lights</a></li>
+                    <li><a href="#">Living</a></li>
+                    <li><a href="#">Fragrance</a></li>
+                    <li><a href="#">Kitchen / Food</a></li>
+                    <li><a href="#">Wood</a></li>
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">Fashion Acc</a></li>
+                    <li><a href="#">Fancy</a></li>
+                    <li><a href="#">DIY / Kidult</a></li>
+                    <li><a href="#">Pet</a></li>
+                    <li><a href="#">화이트코튼</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="header__search">
+            <ul>
+              <li><a href="#">LOGIN</a></li>
+              <li><a href="#">JOIN US</a></li>
+              <li><a href="#">MYPAGE</a></li>
+              <li><a href="#">CART 0 </a></li>
+              <li class="fas fa-search" onclick="putbtn()"></li>
+            </ul>
+            <input id="put" type="text" name="플레이스홀더" placeholder="내용을 입력하세요." style="display:none;">
+          </div>
+          <span class="fas fa-bars" onclick="menubtn()"></span>
+        </div>
+        <!-- 핸드폰 메뉴 -->
+        <div class="p__menu" style="height: 0px;">
+          <div class="p__menu__link">
+            <ul>
+              <li><a href="../pick/pick.html">PICK</a></li>
+              <li><a href="#">선물추천</a></li>
+              <li><a href="#">ARRIVALS</a></li>
+              <li><a href="#">SALE</a></li>
+              <li><a href="#">ABOUT</a></li>
+            </ul>
+          </div>
+          <div class="p__menu__icon">
+            <ul>
+              <li><a href="#"><span class="fab fa-twitter-square"></span></a></li>
+              <li><a href="#"><span class="fab fa-twitch"></span></a></li>
+              <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+              <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 핸드폰 메뉴 -->
+      </div>
+    </header>
+    <!-- 헤더 -->
+    <!-- 세션  -->
+    <section>
+      <div class="main__container__box">
+        <div class="main__text__box">
+          <div class="main__text__one">
+            <h2>선물추천</h2>
+          </div>
+          <div class="main__text__two">
+            <p>상품 <b>24</b>개</p>
+          </div>
+          <div class="main__text__three">
+            <ul>
+              <li><a href="#">추천순</a></li>
+              <li><a href="#">판매인기순</a></li>
+              <li><a href="#">낮은가격순</a></li>
+              <li><a href="#">높은가격순</a></li>
+              <li><a href="#">상품평순</a></li>
+              <li><a href="#">등록일순</a></li>
+            </ul>
+          </div>
+          <select class="count" name="count">
+            <option value="20개씩보기">20개씩보기</option>
+            <option value="40개씩보기">40개씩보기</option>
+            <option value="50개씩보기">60개씩보기</option>
+            <option value="80개씩보기">80개씩보기</option>
+          </select>
+          <div class="main__border"></div>
+        </div>
+        <!-- MYPICK 시작  -->
+        <div class="main__container__one">
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice1.jpg" alt="루무드 무드등">
+                  <div class="main__before">
+                    <p>#북유럽 #유학파 #레인디어모스</p>
+                  </div>
+                  <h4>레인디어모스 6색 나무액자</h4>
+                  <h5>드라이데코</h5>
+                  <div class="main__img__text">
+                    <del>15,000원</del><span>12,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice2.jpg" alt="새싹 드림캐쳐">
+                  <div class="main__before">
+                    <p>#공간창출의 #마술사 #디퓨저 무드등</p>
+                  </div>
+                  <h4>강아지/고양이 디퓨저 무드등 선물세트</h4>
+                  <h5>옐로우문</h5>
+                  <div class="main__img__text">
+                    <del>46,000원</del><span>34,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice3.jpg" alt="아기 수달 작은샘 공기정화 화분">
+                  <div class="main__before">
+                    <p>#너두? #나두! #야 나두!</p>
+                  </div>
+                  <h4>리로라 꽃차 단품C</h4>
+                  <h5>리로라</h5>
+                  <div class="main__img__text">
+                    <span>16,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice4.jpg" alt="열기구 무드등">
+                  <div class="main__before">
+                    <p>#스누피 #포근한 #쿠션</p>
+                  </div>
+                  <h4>스누피와 친구들 얼굴쿠션 3종 택1</h4>
+                  <h5>차앤코코</h5>
+                  <div class="main__img__text">
+                    <del>19,900원</del><span>11,900원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice5.jpg" alt="슈레이스 토드백">
+                  <div class="main__before">
+                    <p>#낮에는 화사하게, #밤에는 로맨틱하게</p>
+                  </div>
+                  <h4>벚꽃 LED 부케 무드등</h4>
+                  <h5>viaKstudio</h5>
+                  <div class="main__img__text">
+                    <del>52,900원</del><span>35,900원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice6.jpg" alt="고양이 / 강아지 LED 무드등">
+                  <div class="main__before">
+                    <p>#반짝이는 #한 송이 장미</p>
+                  </div>
+                  <h4>미녀와 야수 장미 무드등</h4>
+                  <h5>유얼어데이</h5>
+                  <div class="main__img__text">
+                    <span>28,900원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice7.jpg" alt="초콜렛 퍼퓨머 왁스타블렛">
+                  <div class="main__before">
+                    <p>어디든 편하게 불을 밝혀주세요 :)</p>
+                  </div>
+                  <h4>수국 블라썸 콘 LED 조명 무드등</h4>
+                  <h5>viaKstudio</h5>
+                  <div class="main__img__text">
+                    <del>44,900원</del><span>27,900원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice8.jpg" alt="램플로우 더 어스">
+                  <div class="main__before">
+                    <p>#허전한 공간 #이거 하나면 끝!</p>
+                  </div>
+                  <h4>램플로우 뉴문[메세지각인]</h4>
+                  <h5>마이너스원</h5>
+                  <div class="main__img__text">
+                    <del>44,500원</del><span>32,500원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice9.jpg" alt="스윗 로즈 부케 LED 무드등">
+                  <div class="main__before">
+                    <p>특별한 선물, 특별한 꽃다발</p>
+                  </div>
+                  <h4>스윗 로즈 부케 LED 무드등</h4>
+                  <h5>viaKstudio</h5>
+                  <div class="main__img__text">
+                    <del>49,900원</del><span>36,900원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice10.jpg" alt="핸드메이드 데님 백팩">
+                  <div class="main__before">
+                    <p>#온집안 #향긋한 시나몬향기 #가득하게!</p>
+                  </div>
+                  <h4>향기 가득 시나몬스틱</h4>
+                  <h5>마법일기</h5>
+                  <div class="main__img__text">
+                    <span>18,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice11.jpg" alt="램플로우 더 어스">
+                  <div class="main__before">
+                    <p>원하는 사진을 주세요 만들어 드립니다:)</p>
+                  </div>
+                  <h4>맞춤형 LED 전등</h4>
+                  <h5>루무드</h5>
+                  <div class="main__img__text">
+                    <del>24,500원</del><span>20,500원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice12.jpg" alt="북금곰 디퓨저">
+                  <div class="main__before">
+                    <p>#이니셜 #커플링 #나무감성</p>
+                  </div>
+                  <h4>감성만빵 나무 커플링</h4>
+                  <h5>나무사랑</h5>
+                  <div class="main__img__text">
+                    <span>10,500원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice13.jpg" alt="안티버그">
+                  <div class="main__before">
+                    <p>#생화같은 #플라워 #무드등</p>
+                  </div>
+                  <h4>LED 플라워 무드등</h4>
+                  <h5>프레쉬</h5>
+                  <div class="main__img__text">
+                    <span>15,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice14.jpg" alt="커플 애니멀 자수 에코백">
+                  <div class="main__before">
+                    <p>#베이비핑크 #핑크 #2color</p>
+                  </div>
+                  <h4>뉴 타이니로즈 플라워 펜</h4>
+                  <h5>viaKstudio</h5>
+                  <div class="main__img__text">
+                    <span>25,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice15.jpg" alt="꽃노트 미니 해바라기">
+                  <div class="main__before">
+                    <p>#얼굴사진 #붙여도 #딱이야</p>
+                  </div>
+                  <h4>신혼부부 석고 켄들</h4>
+                  <h5>평화살롱</h5>
+                  <div class="main__img__text">
+                    <del>16,000원</del><span> 14,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice16.jpg" alt="오로라 사각 파우치">
+                  <div class="main__before">
+                    <p>#생화같지만 #실크플라워 #글리터</p>
+                  </div>
+                  <h4>미니볼 벚꽃 하바리움 무드등</h4>
+                  <h5>소랑호젠</h5>
+                  <div class="main__img__text">
+                    <span>9,900원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice17.jpg" alt="안티버그">
+                  <div class="main__before">
+                    <p>좋은 꿈을 넘어, 행운까지</p>
+                  </div>
+                  <h4>굿나잇 초승달 LED 드림캐쳐 무드등</h4>
+                  <h5>루무드</h5>
+                  <div class="main__img__text">
+                    <span>24,600원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice18.jpg" alt="커플 애니멀 자수 에코백">
+                  <div class="main__before">
+                    <p>#토끼씨 #일회용품 #줄이기</p>
+                  </div>
+                  <h4>토끼의 환경 에코백</h4>
+                  <h5>효효</h5>
+                  <div class="main__img__text">
+                    <del>19,900원</del><span> 14,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice19.jpg" alt="꽃노트 미니 해바라기">
+                  <div class="main__before">
+                    <p>감성 색감의 보름달</p>
+                  </div>
+                  <h4>푸른달/보라달 LED 무드등[각인가능]</h4>
+                  <h5>하슈스튜디오</h5>
+                  <div class="main__img__text">
+                    <span>35,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice20.jpg" alt="오로라 사각 파우치">
+                  <div class="main__before">
+                    <p>고양이 없는 평화로운 생쥐 친구들</p>
+                  </div>
+                  <h4>귀여운 생쥐 자석</h4>
+                  <h5>효효</h5>
+                  <div class="main__img__text">
+                    <span>10,700원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="main__img__one">
+            <ul>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice21.jpg" alt="안티버그">
+                  <div class="main__before">
+                    <p>미세먼지 먹는 이오난사 화분</p>
+                  </div>
+                  <h4>원목 각인 틸란드시아 화분</h4>
+                  <h5>모던포인트</h5>
+                  <div class="main__img__text">
+                    <del>30,000원</del><span>19,800원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice22.jpg" alt="커플 애니멀 자수 에코백">
+                  <div class="main__before">
+                    <p>#어두운 집안 #포인트 주기 딱!</p>
+                  </div>
+                  <h4>블루라이트 LED 간이 간판</h4>
+                  <h5>달이뜨다</h5>
+                  <div class="main__img__text">
+                    <del>15,900원</del><span> 13,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice23.jpg" alt="꽃노트 미니 해바라기">
+                  <div class="main__before">
+                    <p>#원목 고유 #고급스러운 #우든펜</p>
+                  </div>
+                  <h4>수제 우든펜 볼펜형[각인가능]</h4>
+                  <h5>프롬더오브제</h5>
+                  <div class="main__img__text">
+                    <span>24,000원</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="main__img">
+                  <img src="img/choice24.jpg" alt="오로라 사각 파우치">
+                  <div class="main__before">
+                    <p>#파랑새? #NONO #난 파랑돌고래!</p>
+                  </div>
+                  <h4>돌고래 크리스탈 썬캐쳐</h4>
+                  <h5>앨리스의아뜰리에</h5>
+                  <div class="main__img__text">
+                    <del>30,000원</del><span>2,8000원</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main__border__two"></div>
+    <!-- MYPICK 끝  -->
+        </div>
+    </section>
+    <!-- 세션  -->
+    <!-- 푸터 -->
+    <footer>
+      <div class="footer__box">
+        <div class="footer__wrapper">
+          <div class="footer__left">
+            <h2>White.Cotton</h2>
+            <p>상호 : White.Cotton | 대표: 장은정 | 사업자등록번호: 562-81-00375 | 통신판매업신고번호:2016-서울강남-00439 <a href="#">[사업자정보확인]</a></p>
+            <p>대표번호 : 02-516-5830 | 팩스번호 : 광고 및 사업제휴 : <a href="#">ciren.jang@whitecotton.kr</a> | 입점문의 : <a href="#">contact@whitecotton.kr</a></p>
+            <p>주소 : 서울특별시 강남구 강남대로162길 27-3 두리빌딩 202호 | 개인정보관리자 :김민정</p>
+          </div>
+          <div class="footer__right">
+            <h3>고객센터</h3>
+            <strong>02-516-5830</strong>
+            <p><small>고객센터 운영시간 10시 ~ 18시</small></p>
+            <h3>입금계좌안내</h3>
+            <strong>274-078081-04-024</strong>
+            <p><small>기업은행 (예금주 : 주식회사 화이트코튼)</small></p>
+          </div>
+        </div>
+        <div class="footer__border">
+          <p><small>본 사이트는 상업용 목적이 아닌 포트폴리오 제작용으로 만들어졌습니다.</small></p>
+        </div>
+      </div>
+    </footer>
+    <!-- 푸터 -->
+  </div>
+</body>
+</html>

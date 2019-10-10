@@ -1,0 +1,396 @@
+@import url(Normalize.css);
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255,0.95);
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+}
+.header__box{
+  position: relative;
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+}
+.header__logo{
+  float: left;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+.header__logo a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header__menu{
+  z-index: 500;
+}
+.header__menu ul li{
+  display: inline-block;
+  list-style: none;
+}
+.header__menu a{
+  text-decoration: none;
+  color: rgba(150, 150, 150 , 1);
+}
+.header__menu a:hover{
+  color: #000;
+}
+/* 카테고리 시작 ---------------------- */
+.header__menu .gory{
+  margin-top: 35px;
+  float: left;
+}
+.header__menu .gory a{
+  padding: 15px;
+}
+.sub__gory{
+  position: absolute;
+  background-color: rgba(255, 255, 255,.95);
+  margin-left: -35px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  display: none;
+}
+.sub__gory ul li{
+  display: block;
+  padding: 8px;
+}
+.sub__gory a{
+  padding: 15px;
+  color: rgb(150, 150, 150);
+}
+.gory:hover .sub__gory{
+  display: block;
+}
+/* 카테고리 끝-------------- */
+/* 브랜드 시작 ------------------*/
+.header__menu .brand{
+  margin-top: 35px;
+  margin-left: 50px;
+  float: left;
+}
+.header__menu .brand a{
+  padding: 15px;
+  color: rgb(150, 150, 150);
+}
+.brand ul li{
+  display: block;
+  padding: 8px;
+}
+.sub__brand{
+  display: none;
+  background-color: rgba(255, 255, 255,.95);
+  margin-left: -40px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgba(150, 150, 150);
+}
+.sub__brand a{
+  padding: 15px;
+}
+.brand:hover .sub__brand{
+  display: block;
+}
+.brand a:hover{
+  color: #000;
+}
+/* 브랜드 끝 ------------------*/
+/* 서치 시작 ----------------- */
+.header__search{
+  float: right;
+  margin-top: 5px;
+}
+.header__search input{
+  width: 160px;
+  font-size: 12px;
+  color: #000;
+  padding: 4px;
+  opacity: 1;
+  text-align: right;
+  margin: 2px 0px 10px 80px;
+}
+.header__search ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.header__search a{
+  text-decoration: none;
+  margin: 0px 5px;
+  color: rgba(150, 150, 150, 1);
+  font-size: 12px;
+}
+.fa-search{
+  color: rgba(150, 150, 150, 1);
+  font-size: 12px;
+  cursor: pointer;
+}
+.fa-bars{
+  position: absolute;
+  right: 0;
+  top: 35px;
+  font-size: 24px;
+  color: rgba(150, 150, 150 , 1);
+  cursor: pointer;
+  transition: all .5s;
+  display: none;
+}
+.fa-bars:hover{
+  color: #000;
+}
+/* 서치 끝 ----------------- */
+/* header */
+/* 핸드폰메뉴 시작 ---------- */
+.p__menu{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(240, 240, 240, 1);
+  text-align: center;
+  display: none;
+  overflow: hidden;
+  margin-top: 80px;
+  z-index: 100;
+}
+.p__menu__link ul li{
+  padding: 22px 0px;
+  font-size: 26px;
+}
+.p__menu__link ul li a{
+  color: rgba(138, 138, 138, 0.9);
+  text-decoration: none;
+}
+.p__menu__link a:hover{
+  color:#000;
+}
+.p__menu__icon ul li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 32px;
+}
+.p__menu__icon a{
+  color: #000;
+  text-decoration: none;
+}
+.fa-twitter-square:hover{
+  color: #55acee;
+  transition: .5s;
+}
+.fa-twitch:hover{
+  color: #6441a5;
+  transition: .5s;
+}
+.fa-youtube:hover{
+  color: #bb0000;
+  transition: .5s;
+}
+.fa-instagram:hover{
+  color: #125688;
+  transition: .5s;
+}
+/* 핸드폰메뉴 끝 ------------*/
+/* 본문 시작 --------------------*/
+.section{
+  width: 100%;
+  padding-top: 150px;
+}
+.main__text__box{
+  width: 1200px;
+  margin: 0 auto;
+}
+.main__text__one{
+  width: 1200px;
+  text-align: center;
+  font-size: 20px;
+}
+.main__text__one h2{
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.main__text__two{
+  width: 1200px;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.main__text__three{
+  width: 1200px;
+}
+.count{
+  float: right;
+  color: rgba(100, 100, 100, 0.9);
+  font-size: 12px;
+  padding: 4px;
+}
+.main__text__three .count option{
+  padding: 4px 0px;
+}
+.main__text__three ul li{
+  display: inline-block;
+  float: right;
+  margin: 4px 15px;
+  font-size: 14px;
+}
+.main__text__three a{
+  text-decoration: none;
+  color: rgba(100, 100, 100, 0.9);
+}
+.main__text__three a:hover{
+  color: #000;
+}
+.main__border{
+  width: 1200px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+  margin: 0 auto;
+  clear: both;
+}
+/* 텍스트 끝 -------------------- */
+/* 본문 이미지 시작 -------------- */
+.main__container__box{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.main__img__one{
+  width: 1200px;
+}
+.main__img__one li{
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  margin: 5px 0px;
+}
+.main__img{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+.main__img:hover .main__before{
+background-color: rgba(0, 0, 0,.6);
+opacity: 1;
+-webKit-transition:1s;
+transition: 1s;
+}
+.main__before{
+  width: 280px;
+  height: 280px;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 280px;
+  opacity: 0;
+}
+.main__before p{
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+}
+.main__before a{
+  text-decoration: none;
+}
+.main__img img{
+  width: 280px;
+  height: 280px;
+}
+.main__img h4{
+  color: #000;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.main__img h5{
+  color: rgb(150, 150, 150);
+  margin: 15px 0px;
+}
+.main__img__text{
+  text-align: right;
+}
+.main__img__text del{
+  color: rgb(150, 150, 150);
+  margin-right: 10px;
+  font-size: 12px;
+}
+.main__img__text span{
+  font-weight: bold;
+}
+.main__border__two{
+  width: 1200px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+  margin: 0 auto;
+  margin: 50px 0px;
+}
+/* 본문 이미지 끝 -------------- */
+/* 본문 끝 ----------------------*/
+/* 푸터시작--------------------------- */
+.footer__box{
+  width: 100%;
+  background-color: #f9f9f9;
+}
+.footer__wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer__left{
+  width: 800px;
+  float: left;
+  margin: 50px 20px;
+}
+.footer__left h2{
+  margin-bottom: 20px;
+}
+.footer__left p{
+  font-size: 12px;
+  color: #555;
+  line-height: 28px;
+}
+.footer__left a{
+  color: #555;
+  text-decoration:none;
+}
+.footer__left a:hover{
+  color: #000;
+}
+.footer__right{
+  float: left;
+  margin: 20px 20px;
+}
+.footer__right h3{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.footer__right strong{
+  font-size: 20px;
+}
+.footer__right p{
+  color: #888;
+  margin: 20px 0px;
+}
+.footer__border{
+  width: 100%;
+  text-align: center;
+  clear: both;
+  border-top: 1px solid #ccc;
+}
+.footer__border p{
+  padding: 15px 0px;
+  font-size: 10px;
+  color: #888;
+}
+/* 푸터--------------------------- */

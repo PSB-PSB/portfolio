@@ -1,0 +1,111 @@
+/* 핸드폰 시작 */
+@media all and (max-width: 375px) {
+  #wrapper{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .header{
+    max-width: 100vw;
+  }
+  .header__menu{
+    display: none;
+  }
+  .header__search{
+    display: none;
+  }
+  .header__box{
+    max-width: 100vw;
+  }
+  .header__logo{
+    margin-left: 10px;
+  }
+  .p__menu{
+    display: block;
+    max-width: 100vw;
+  }
+  .header__search{
+    margin-right: 20px;
+    margin-top: 4px;
+  }
+  .fa-bars{
+    display: block;
+    right: 10px;
+    top: 30px;
+  }
+  .section{
+    max-width: 100vw;
+  }
+  .main__border{
+    max-width: 100vw;
+  }
+  .main__border__two{
+    max-width: 100vw;
+  }
+  .main__text__one{
+    max-width: 100vw;
+  }
+  .main__text__two{
+    display: none;
+  }
+  .main__text__three{
+    display: none;
+  }
+  .count{
+    display: none;
+  }
+  .main__img__one{
+    max-width: 100vw;
+    margin-left: 9%;
+  }
+  .main__img__two{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__three{
+    max-width: 100vw;
+    height: none;
+    margin-left: 9%;
+    margin-bottom: 0px;
+  }
+  .H400 img{
+    height: 280px;
+  }
+  .main__container__box{
+    max-width: 100vw;
+  }
+  .main__container__one{
+    max-width: 100vw;
+  }
+  .main__before__one{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 280px;
+    opacity: 0;
+  }
+  .main__img__three li{
+    margin: 50px 0px 200px 0px;
+  }
+  .footer__box{
+    max-width: 100vw;
+  }
+  .footer__left{
+    max-width: 100vw;
+    margin-left: 60px;
+    margin: 0;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .footer__left p{
+    font-size: 12px;
+  }
+  .footer__right{
+    display: none;
+  }
+}

@@ -1,0 +1,96 @@
+@media all and (min-width:767px) and (max-width: 1023px) {
+  body{
+    overflow-x: hidden;
+  }
+  #wrapper{
+    max-width: 100vw;
+  }
+  .slideshow-container{
+    margin-top: 80px;
+  }
+  .header__box{
+    max-width: 100vw;
+  }
+  .header__logo{
+    margin-left: 10px;
+  }
+  .header__search{
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+  .main__container__one{
+    max-width: 100vw;
+  }
+  .main__img__one{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__text__one{
+    max-width: 100vw;
+  }
+  .main__img__two{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__three{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__three li{
+    margin: 0px 0px 300px 0px;
+  }
+  .main__img__for{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__for li{
+    margin: 0px 0px 300px 0px;
+  }
+  .main__img__five{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__five li{
+    margin: 0px 0px 300px 0px;
+  }
+  .main__img__six{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__six li{
+    margin: 0px 0px 300px 0px;
+  }
+  .main__img__seven{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__seven li{
+    margin: 0px 0px 300px 0px;
+  }
+  .main__img__eight{
+    max-width: 100vw;
+    height: none;
+    margin-left: 12%;
+  }
+  .main__img__eight li{
+    margin: 0px 0px 300px 0px;
+  }
+  .footer__box{
+    max-width: 100vw;
+  }
+  .footer__left{
+    max-width: 400px;
+    margin-left: 60px;
+  }
+  .footer__rught{
+    max-width: 400px;
+  }
+}
+/* 태블릿 끝 */
