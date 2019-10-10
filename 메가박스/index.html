@@ -1603,14 +1603,22 @@
     var movCont = $(".movie_chart > div");
 
     movCont.hide().eq(0).show();
-
+    //movie_chart > div를 hide로 숨김.
+    //선택자 메소드eq로 첫번째 div만 보이도록 함
     movBtn.click(function(e) {
+      //a태그의 이벤트 초기화
       e.preventDefault();
+      //this 선택된 자기자신
       var target = $(this);
+      //target으로 선택된 인덱스
       var index = target.index();
+      //클릭스 선택 하지않은 movie_title > ul > li의 active클래스를 삭제
       movBtn.removeClass("active");
+      //this선택자로 클릭된 target에 active클래스 생성
       target.addClass("active");
+      //클래스가 삭제된 요소 display:none처리
       movCont.css("display", "none");
+      //target된 인덱스를 eq선택자로 분류한 뒤 display:block으로 웹상에 표시
       movCont.eq(index).css("display", "block");
     })
 
