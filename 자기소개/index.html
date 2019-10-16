@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="박성배">
+  <meta name="description" content="박성배 포트폴리오">
+  <meta name="keywords" content="박성배 / 포트폴리오 / 자기소개">
+  <title>웹퍼블리셔 박성배</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <!-- 스크립트 -->
+  <script src="js/jquery.min_1.12.4.js"></script>
+  <script src="js/modernizr-custom.js"></script>
+  <script src="js/ie-checker.js"></script>
+  <!-- HTLM5shiv ie6~8 -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script type="text/javascript">
+         alert("현재 브라우저는 지원하지 않습니다. 크롬 브라우저를 추천합니다.!");
+      </script>
+   <![endif]-->
+
+  <!-- 폰트 -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="header_logo">
+        <h1><a href="#">ㅂㅅㅂ</a></h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="bar">
+        <i onclick="btn();" class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- 모바일메뉴 -->
+  <div class="m_menu" style="height: 0px;">
+    <div class="container">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 세션 메인홈 -->
+  <section id="home">
+    <h2 class="ir_pm">포트폴리오 메인 페이지</h2>
+    <div class="container">
+      <div class="home_text1">
+        <h2 tabindex="0">WEB PUBLISHER</h2>
+        <p tabindex="0">넓은 웹을 탐험하는 웹 퍼블리셔 박성배</p>
+      </div>
+      <div class="home_text2">
+        <p tabindex="0">바다처럼 깊고 산처럼 높은 웹이라는 거대한 영역에 몸을 던진 퍼블리셔 박성배 입니다.</p>
+        <p tabindex="0">트렌드의 변화속도를 따라가는 퍼블리셔가 되는 것이 저의 목표입니다.</p>
+      </div>
+      <div class="down">
+        <i class="fa fa-angle-down" aria-hidden="true"><span class="ir_pm">스크롤다운</span></i>
+      </div>
+    </div>
+  </section>
+  <!-- //세션 메인홈-->
+
+  <!-- 세션 프로필 -->
+  <section id="profile">
+    <div class="container">
+      <div class="profile_head">
+        <h2 tabindex="0">PROFILE</h2>
+      </div>
+      <div class="profile_left">
+        <div class="profile_left_text">
+          <em tabindex="0">박성배</em>
+          <p tabindex="0">Web Publisher</p>
+          <div class="profile_left_icon">
+            <ul>
+              <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="profile_right">
+        <div class="profile_left_right">
+          <ul>
+            <li tabindex="0"><em>이름</em> - 박성배</li>
+            <li tabindex="0"><em>나이</em> - 1995.4.16 25세</li>
+            <li tabindex="0"><em>거주지</em> - 수원시 권선구 고색동</li>
+            <li tabindex="0"><em>성격</em> - 유순하고 둥글둥글 한번 맡은일은 끝내는 열정</li>
+            <li tabindex="0"><em>취미</em> - 영화보기, 밤에 공원 런닝하기</li>
+            <li tabindex="0"><em>좌우명</em> - 배는 항구에 있을때 가장 안전하지만 그것이 존재의 이유는 아니다 -괴테-</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //세션 프로필 -->
+
+  <!-- 세션 스킬 -->
+  <section id="skill">
+    <div class="container">
+      <div class="skill_text">
+        <h2 tabindex="0">SKILL</h2>
+        <div class="skill_list">
+          <ul>
+            <li>
+              <dl>
+                <dt tabindex="0">HTML</dt>
+                <dd tabindex="0">HTML5등 DOCTYPE을 이해하고 문서에 맞춰 작업이 가능합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">CSS</dt>
+                <dd tabindex="0">id와 class를 과도하게 사용하지 않고 내가아닌 다른사람이 보기 편안하게 작성합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">JAVASCRIPT</dt>
+                <dd tabindex="0">자바스크립트를 활용한 동적이벤트를 사용합니다. 추가적으로 자바스크립트에 관심이 많아 공부중에 있습니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">jQuery</dt>
+                <dd tabindex="0">다양한 메소드를 사용해 기능을 구현합니다. 플러그인 활용, 수정이 가능합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">웹전근성 / 웹표준</dt>
+                <dd tabindex="0">웹표준과 접근성을 고려하여 각각의 브라우저 사용자의 편의를 생각하여 마크업 합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">반응형웹</dt>
+                <dd tabindex="0">모바일 또는 타블렛을 고려하여 유동적으로 반응형 웹을 제작하는것이 가능합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">포토샵</dt>
+                <dd tabindex="0">간단한 이미지보정 / 편집을 사용이 가능합니다.</dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt tabindex="0">그외</dt>
+                <dd tabindex="0">언제나 프론트엔드에 관심이 있어서 자바스크립트를 꾸준히 공부하여 ReactJS를 활용하여 개발하려는 생각이 있습니다.</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //세션 스킬 -->
+
+  <!-- 세션 포트폴리오 -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="portfolio_text">
+        <h2 tabindex="0">PORTFOLIO</h2>
+      </div>
+      <div class="portfolio_list1 clearfix">
+        <div class="portfolio_left">
+          <h2 tabindex="0">1. 화이트코튼</h2>
+          <figure>
+            <img src="img/img1.jpg" alt="화이트코튼">
+          </figure>
+        </div>
+        <div class="portfolio_right">
+          <div class="portfolio_right_text">
+            <dl>
+              <dt tabindex="0"><strong tabindex="0">Concept</strong> 깔끔하고 포근한</dt>
+              <dd tabindex="0">다양한 기법과 코딩방법을 적용하기위해 많은 컨텐츠가 있는 쇼핑물을 주제로 잡았습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">UX & UI</strong> 익숙한 레이아웃</dt>
+              <dd tabindex="0">처음 방문한 고객을 위해 익숙한 레이아웃을 적용했습니다.
+                쇼핑몰 특성상 PC보다 모바일을 이용하는 점을 생각하여 반응형웹 작업을 완료했습니다.
+                또한 Javascript와 이미지 슬라이더를 활용해 배너작업, 상품추천등을 구현하였습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">Epilogue</strong> 시작</dt>
+              <dd tabindex="0">학원수료전 만든 포트폴리오중 가장 마음에들고
+                제작 후 뿌듯함이 밀려왔습니다. 작은 포트폴리오지만 저에게는 큰 경험치가 되었습니다.</dd>
+            </dl>
+            <p tabindex="0" onclick="window.open('coten/index.html')" style="cursor:pointer;">사이트 보러가기</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_list1 clearfix">
+        <div class="portfolio_left">
+          <h2 tabindex="0">2. 웹표준 사이트</h2>
+          <figure>
+            <img src="img/img2.jpg" alt="웹표준">
+          </figure>
+        </div>
+        <div class="portfolio_right">
+          <div class="portfolio_right_text">
+            <dl>
+              <dt tabindex="0"><strong tabindex="0">Concept</strong> 기본을 지키자</dt>
+              <dd tabindex="0">수료후 같이 수업받던 수강생들과 웹표준을 집중적으로 공부하자는 의견이 나와 유튜브강의와 다룸,
+                널리를 기반으로 웹 표준, css컨벤션, ir기법등등을 강화하자는 주제로 잡았습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">adjust</strong> 변화</dt>
+              <dd tabindex="0">레이아웃과 디자인보다는 교육기관에서 배우지 못한것을 배우지못한걸 활용하거나 잘못된 지식과 정보를
+                 수정하는데 힘을 썻습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">Epilogue</strong> 시작</dt>
+              <dd tabindex="0">교육기관에서 배운지식의잘못된점과 각 요소에 맞는 태그들의 의미, css의 균일화등을 배운 의미있는
+                포트폴리오입니다.</dd>
+            </dl>
+            <p tabindex="0" onclick="window.open('sten/index.html')" style="cursor:pointer;">사이트 보러가기</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_list1 clearfix">
+        <div class="portfolio_left">
+          <h2 tabindex="0">3. 반응형/웹전근성 사이트</h2>
+          <figure>
+            <img src="img/img3.jpg" alt="웹반응형">
+          </figure>
+        </div>
+        <div class="portfolio_right">
+          <div class="portfolio_right_text">
+            <dl>
+              <dt tabindex="0"><strong tabindex="0">Concept</strong> 점점 더 깊이</dt>
+              <dd tabindex="0">웹표준에 이어서 웹전근성 밑 반응형의 실력을 높이는 목적으로 제작되었습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">adjust</strong> 다양한 방법의 CSS</dt>
+              <dd tabindex="0">사용하는 CSS의 심화를 배울수있었습니다. 또한 반응형 웹 제작시
+                 교려해야하는 점을 배울 수 있는 의미있는 포트폴리오 였습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">Epilogue</strong> 깊은 넓은 웹</dt>
+              <dd tabindex="0">웹의 세계가 바다처럼 깊고 마라톤처럼 길다 라는것을 알수있는 경험이었습니다. 그때문에 저 배우고싶고 더 알고싶은 욕구가 많이
+              생기게 되었습니다.</dd>
+            </dl>
+            <p tabindex="0" onclick="window.open('respnsive/index.html')" style="cursor:pointer;">사이트 보러가기</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_list1 clearfix">
+        <div class="portfolio_left">
+          <h2 tabindex="0">4. NH농협</h2>
+          <figure>
+            <img src="img/img4.jpg" alt="농협">
+          </figure>
+        </div>
+        <div class="portfolio_right">
+          <div class="portfolio_right_text">
+            <dl>
+              <dt tabindex="0"><strong tabindex="0">Concept</strong> 활용</dt>
+              <dd tabindex="0">위에서 배운것들을 활용하여 NH농협 웹사이트를 약간의 리뉴얼 하였습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">UX & UI</strong> 푸르고 청결</dt>
+              <dd tabindex="0">웹사이트를 접속시 한눈에 보이도록 배치하고 반응형 작업까지 완료했습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">Epilogue</strong> 많은걸 느낀 포트폴리오</dt>
+              <dd tabindex="0">여태 얻은 경험을통해 이번에도 잘 되겠지 라는 느낌이 있었지만 계획대로 풀리지는 않은 작업물이었습니다.
+              현재 새로 리뉴얼 계획을 하고있습니다.</dd>
+            </dl>
+            <p tabindex="0" onclick="window.open('nh/index.html')" style="cursor:pointer;">사이트 보러가기</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_list1 clearfix">
+        <div class="portfolio_left">
+          <h2 tabindex="0">5. 메가박스</h2>
+          <figure>
+            <img src="img/img5.jpg" alt="메가박스">
+          </figure>
+        </div>
+        <div class="portfolio_right">
+          <div class="portfolio_right_text">
+            <dl>
+              <dt tabindex="0"><strong tabindex="0">Concept</strong> 사용자 중점</dt>
+              <dd>웹 모바일 타블렛을 사용하는 고객들을 위해 반응형 작업과 누가봐도 예매 또는
+                상영작을 확인 할 수 있는 웹을 제작하였습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">UX & UI</strong> 실제 메가박스 사이트와 같은 레이아웃</dt>
+              <dd>평소에 이용하던 메가박스 사이트의 레이아웃을 잡고 처음방문한 고객이 동선을 낭비하지 않도록 레이아웃을 잡았습니다.
+              또한 모바일과 타블렛을 사용하는 고객들을 생각해 반응형웹을 적용하였습니다.</dd>
+              <dt tabindex="0"><strong tabindex="0">Epilogue</strong> 많은걸 느낀 포트폴리오</dt>
+              <dd>지금껏 배운것의 총 집합체라고 생각합니다. 다양한 제이쿼리와 플로그인을 통해 작업능률을 올리고 웹표준과 접근성을 준수하여
+              제작되었습니다.</dd>
+            </dl>
+            <p tabindex="0"  onclick="window.open('mega/index.html')" style="cursor:pointer;">사이트 보러가기</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //세션 포트폴리오 -->
+
+  <!-- 세션 콘택트 -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact_head">
+        <h2 tabindex="0">CONTACTS</h2>
+      </div>
+      <div class="contact_list">
+        <ul>
+          <li tabindex="0"><i class="fa fa-mobile" aria-hidden="true"></i> 010-3915-0416</li>
+          <li tabindex="0"><i class="fa fa-envelope-o" aria-hidden="true"></i> yateyate04@gmail.com</li>
+          <li tabindex="0"><i class="fa fa-github" aria-hidden="true"></i> https://github.com/PSB-PSB</li>
+        </ul>
+        <h2 tabindex="0">감사합니다.</h2>
+      </div>
+    </div>
+  </section>
+  <!-- //세션 콘택트 -->
+
+  <!-- 푸터 -->
+  <footer id="footer">
+    <div class="container">
+      <h2 tabindex="0">Copyright 2019. 박성배 All rights reserved</h2>
+    </div>
+  </footer>
+  <!-- //푸터 -->
+  <script>
+    var index = -1;
+    jQuery('#rudder').bind('keydown', function(e) {
+      var size = jQuery(e.currentTarget).children().length - 1;
+      if (index < -1) {
+        return;
+      }
+      if (e.keyCode === 37 && index > 0) {
+        --index;
+      } else if (e.keyCode === 39 && index < size) {
+        ++index;
+      } else if (e.keyCode === 9) {
+        index = -1;
+        return;
+      } else {
+        return;
+      }
+      jQuery(e.currentTarget).children()[index].focus();
+      //모바일 메뉴
+    })
+    function btn(){
+      var menu = document.getElementsByClassName('m_menu');
+      if (menu[0].style.height === "0px") {
+        menu[0].style.height="500px";
+        menu[0].style.transition =".5s";
+      }else{
+        menu[0].style.height="0px";
+        menu[0].style.transition =".5s";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
